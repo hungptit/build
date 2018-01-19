@@ -1,0 +1,36 @@
+[submodule "src/fmt"]
+	path = src/fmt
+	url = https://github.com/fmtlib/fmt.git
+	branch = master
+[submodule "src/cereal"]
+	path = src/cereal
+	url = https://github.com/USCiLab/cereal.git
+	branch = master
+[submodule "src/zstd"]
+	path = src/zstd
+	url = https://github.com/facebook/zstd.git
+	branch = master
+[submodule "src/snappy"]
+	path = src/snappy
+	url = https://github.com/google/snappy.git
+	branch = master
+[submodule "src/rocksdb"]
+	path = src/rocksdb
+	url = https://github.com/facebook/rocksdb.git
+	branch = master
+[submodule "src/jemalloc"]
+	path = src/jemalloc
+	url = https://github.com/jemalloc/jemalloc.git
+	branch = master
+[submodule "src/zlib"]
+	path = src/zlib
+	url = https://github.com/madler/zlib.git
+	branch = master
+[submodule "src/spdlog"]
+	path = src/spdlog
+	url = https://github.com/gabime/spdlog
+	branch = master
+[submodule "src/tbb"]
+	path = src/tbb
+	url = https://github.com/01org/tbb.git
+	branch = master

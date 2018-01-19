@@ -1,7 +1,8 @@
 source ./get_build_options.sh
+TBB_DIR="$SRC_DIR/tbb"
 
 install_tbb() {
-    pushd "$SRC_DIR/tbb"
+    pushd $TBB_DIR
     make clean
 
 	# Customize some variables to make this build portable.
@@ -16,3 +17,9 @@ install_tbb() {
 
 # Build tbb
 install_tbb > /dev/null
+
+# Copy header files and libraries
+mkdir -p lib include
+cp $TBB_DIR/lib/* lib/
+cp $TBB_DIR/include/tbb include/ -rv
+
