@@ -34,3 +34,23 @@
 	path = src/tbb
 	url = https://github.com/01org/tbb.git
 	branch = master
+[submodule "src/Catch2"]
+	path = src/Catch2
+	url = https://github.com/catchorg/Catch2.git
+	branch = master
+[submodule "src/Celero"]
+	path = src/Celero
+	url = https://github.com/DigitalInBlue/Celero.git
+	branch = master
+[submodule "src/CMake"]
+	path = src/CMake
+	url = https://github.com/Kitware/CMake.git
+	branch = master
+[submodule "src/lz4"]
+	path = src/lz4
+	url = https://github.com/lz4/lz4.git
+	branch = master
+[submodule "src/pugixml"]
+	path = src/pugixml
+	url = https://github.com/zeux/pugixml.git
+	branch = master
