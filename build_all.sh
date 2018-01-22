@@ -3,7 +3,7 @@ set -euo pipefail				# Use Bash strict mode
 
 
 printf "Build CMake\n";
-./build_using_cmake.sh CMake > /dev/null
+./build_using_configure.sh CMake > /dev/null
 
 printf "Build Catch\n";
 ./build_using_cmake.sh Catch2
@@ -19,6 +19,9 @@ printf "Build cereal\n"
 
 printf "Build spdlog\n"
 ./build_using_cmake.sh spdlog > /dev/null 
+
+printf "Build pugixml\n"
+./build_using_autogen.sh pugixml > /dev/null
 
 printf "Build zlib\n"
 ./build_using_cmake.sh zlib > /dev/null 
