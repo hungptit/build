@@ -21,7 +21,8 @@ printf "Build spdlog\n"
 ./build_using_cmake.sh spdlog > /dev/null 
 
 printf "Build pugixml\n"
-./build_using_autogen.sh pugixml > /dev/null
+./build_using_cmake.sh pugixml > /dev/null
+cp $SRC_DIR/pugixml/src/pugixml.cpp include/
 
 printf "Build zlib\n"
 ./build_using_cmake.sh zlib > /dev/null 
