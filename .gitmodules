@@ -61,4 +61,7 @@
 [submodule "src/fbthrift"]
 	path = src/fbthrift
 	url = https://github.com/facebook/fbthrift.git
+[submodule "src/sse4-strstr"]
+	path = src/sse4-strstr
+	url = https://github.com/WojciechMula/sse4-strstr.git
 	branch = master
