@@ -23,9 +23,6 @@ printf "Build spdlog\n"
 printf "Build zlib\n"
 ./build_using_cmake.sh zlib > /dev/null 
 
-printf "build rocksdb"
-./build_rocksdb.sh > /dev/null 
-
 printf "Build lz4\n"
 ./build_using_make.sh lz4 > /dev/null 
 
@@ -40,3 +37,6 @@ printf "Build jemalloc\n"
 
 # printf "Build bzip2\n"
 # ./build_using_make.sh bzip2 > /dev/null 
+
+printf "build rocksdb"
+./build_rocksdb.sh > /dev/null 
