@@ -65,3 +65,7 @@
 	path = src/sse4-strstr
 	url = https://github.com/WojciechMula/sse4-strstr.git
 	branch = master
+[submodule "src/yaml-cpp"]
+	path = src/yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp.git
+	branch = master
