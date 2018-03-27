@@ -57,6 +57,16 @@
 [submodule "src/sajson"]
 	path = src/sajson
 	url = https://github.com/chadaustin/sajson.git
+	branch = master
 [submodule "src/rtags"]
 	path = src/rtags
 	url = https://github.com/Andersbakken/rtags.git
+	branch = master
+[submodule "src/sse4-strstr"]
+	path = src/sse4-strstr
+	url = https://github.com/WojciechMula/sse4-strstr.git
+	branch = master
+[submodule "src/yaml-cpp"]
+	path = src/yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp.git
+	branch = master
