@@ -66,3 +66,19 @@
 	path = src/yaml-cpp
 	url = https://github.com/jbeder/yaml-cpp.git
 	branch = master
+[submodule "src/benchmark"]
+	path = src/benchmark
+	url = https://github.com/google/benchmark.git
+	branch = master
+[submodule "src/Clara"]
+	path = src/Clara
+	url = https://github.com/catchorg/Clara.git
+	branch = master
+[submodule "src/libzmq"]
+	path = src/libzmq
+	url = https://github.com/zeromq/libzmq.git
+	branch = master
+[submodule "src/zguide"]
+	path = src/zguide
+	url = https://github.com/booksbyus/zguide.git
+	branch = master
