@@ -85,3 +85,11 @@
 	path = src/zguide
 	url = https://github.com/booksbyus/zguide.git
 	branch = master
+[submodule "src/tmux"]
+	path = src/tmux
+	url = https://github.com/tmux/tmux.git
+	branch = master
+[submodule "src/hyperscan"]
+	path = src/hyperscan
+	url = https://github.com/intel/hyperscan.git
+	branch = master
