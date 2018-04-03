@@ -62,6 +62,9 @@
 	path = src/rtags
 	url = https://github.com/Andersbakken/rtags.git
 	branch = master
+[submodule "src/fbthrift"]
+	path = src/fbthrift
+	url = https://github.com/facebook/fbthrift.git
 [submodule "src/sse4-strstr"]
 	path = src/sse4-strstr
 	url = https://github.com/WojciechMula/sse4-strstr.git
@@ -73,4 +76,24 @@
 [submodule "src/benchmark"]
 	path = src/benchmark
 	url = https://github.com/google/benchmark.git
+	branch = master
+[submodule "src/Clara"]
+	path = src/Clara
+	url = https://github.com/catchorg/Clara.git
+	branch = master
+[submodule "src/libzmq"]
+	path = src/libzmq
+	url = https://github.com/zeromq/libzmq.git
+	branch = master
+[submodule "src/zguide"]
+	path = src/zguide
+	url = https://github.com/booksbyus/zguide.git
+	branch = master
+[submodule "src/tmux"]
+	path = src/tmux
+	url = https://github.com/tmux/tmux.git
+	branch = master
+[submodule "src/hyperscan"]
+	path = src/hyperscan
+	url = https://github.com/intel/hyperscan.git
 	branch = master
