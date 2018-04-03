@@ -70,3 +70,7 @@
 	path = src/yaml-cpp
 	url = https://github.com/jbeder/yaml-cpp.git
 	branch = master
+[submodule "src/benchmark"]
+	path = src/benchmark
+	url = https://github.com/google/benchmark.git
+	branch = master
