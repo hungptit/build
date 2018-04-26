@@ -58,6 +58,10 @@
 	path = src/sajson
 	url = https://github.com/chadaustin/sajson.git
 	branch = master
+[submodule "src/rtags"]
+	path = src/rtags
+	url = https://github.com/Andersbakken/rtags.git
+	branch = master
 [submodule "src/fbthrift"]
 	path = src/fbthrift
 	url = https://github.com/facebook/fbthrift.git
