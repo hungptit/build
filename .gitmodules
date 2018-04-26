@@ -93,3 +93,7 @@
 	path = src/hyperscan
 	url = https://github.com/intel/hyperscan.git
 	branch = master
+[submodule "src/seastar"]
+	path = src/seastar
+	url = https://github.com/scylladb/seastar.git
+	branch = master
