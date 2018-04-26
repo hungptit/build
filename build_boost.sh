@@ -26,7 +26,7 @@ git submodule update --recursive;
 ./b2 --ignore-site-config clean
 ./b2 --ignore-site-config headers
 ./b2 --ignore-site-config --build-dir=$TMP_DIR/boost
-./b2 $BUILD_OPTS --disable-icu --ignore-site-config variant=release threading=multi install
+./b2 $BUILD_OPTS --disable-icu --ignore-site-config install
 
 popd;
 # rm -rf $BOOST_BUILD_DIR
