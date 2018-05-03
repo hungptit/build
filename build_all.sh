@@ -20,6 +20,9 @@ printf "Build cereal\n"
 printf "Build spdlog\n"
 ./build_using_cmake.sh spdlog > /dev/null 
 
+printf "Build libzmq\n"
+./build_using_cmake.sh libzmq > /dev/null 
+
 printf "Build zlib\n"
 ./build_using_cmake.sh zlib > /dev/null 
 
@@ -30,9 +33,10 @@ printf "Build jemalloc\n"
 ./build_using_autogen.sh jemalloc > /dev/null
 
 # Download required packages
-./download_source_code.sh http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz bzip2
-# ./download_source_code.sh http://sqlite.org/2017/sqlite-autoconf-3180000.tar.gzprintf "Build SQLite"
+# ./download_source_code.sh http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz bzip2
+# ./download_source_code.sh http://sqlite.org/2017/sqlite-autoconf-3180000.tar.gz
 
+# printf "Build SQLite"
 # ./build_using_configure.sh sqlite "CFLAGS=-O3"
 
 # printf "Build bzip2\n"
