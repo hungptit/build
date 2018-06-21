@@ -21,5 +21,5 @@ install_tbb > /dev/null
 # Copy header files and libraries
 mkdir -p lib include
 cp $TBB_DIR/lib/* lib/
-cp $TBB_DIR/include/tbb include/ -rv
+cp -rv $TBB_DIR/include/tbb include/
 
