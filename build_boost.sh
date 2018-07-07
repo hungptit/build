@@ -22,9 +22,9 @@ git submodule init;
 git submodule update --recursive;
 
 # Build Boost libraries
-./bootstrap.sh --prefix=$BOOST_PREFIX --without-icu
-./b2 clean
-./b2 --ignore-site-config headers
+# ./bootstrap.sh --ignore-site-config  --prefix=$BOOST_PREFIX --without-icu
+#./b2 clean
+#./b2 --ignore-site-config headers
 ./b2 --ignore-site-config --build-dir=$TMP_DIR/boost
 ./b2 $BUILD_OPTS --disable-icu --ignore-site-config install
 

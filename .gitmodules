@@ -97,7 +97,14 @@
 	path = src/hyperscan
 	url = https://github.com/intel/hyperscan.git
 	branch = master
+[submodule "src/toys"]
+	path = src/toys
+	url = https://github.com/WojciechMula/toys.git
 [submodule "src/seastar"]
 	path = src/seastar
 	url = https://github.com/scylladb/seastar.git
+	branch = master
+[submodule "src/FakeIt"]
+	path = src/FakeIt
+	url = https://github.com/eranpeer/FakeIt.git
 	branch = master
