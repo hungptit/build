@@ -1,3 +1,4 @@
+#!/bin/bash
 source ./get_build_options.sh
 TBB_DIR="$SRC_DIR/tbb"
 
