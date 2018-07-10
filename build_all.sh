@@ -47,3 +47,5 @@ printf "Build snappy"
 
 printf "build rocksdb"
 ./build_rocksdb.sh > /dev/null 
+
+./build_using_cmake.sh benchmark "-DBENCHMARK_ENABLE_GTEST_TESTS=OFF"
