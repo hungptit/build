@@ -11,8 +11,8 @@ fi
 pushd 3p
 git submodule init
 git submodule update
-# ./build_all.sh || true
-# ./build_rocksdb.sh || true
+./build_all.sh || true
+./build_rocksdb.sh || true
 ./build_boost.sh || true
 popd
 
