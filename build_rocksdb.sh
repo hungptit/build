@@ -7,6 +7,7 @@ pushd $ROCKSDB_DIR
 git clean -df
 make clean
 make DEBUG_LEVEL=0 $BUILD_OPTS static_lib EXTRA_CFLAGS="$EXTRA_CFLAGS" EXTRA_CXXFLAGS="${EXTRA_CXXFLAGS}"
+popd
 
 # Install libraries
 cp $ROCKSDB_DIR/librocksdb.a lib/

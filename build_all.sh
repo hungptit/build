@@ -8,6 +8,9 @@ printf "Build CMake\n";
 printf "Build Catch\n";
 ./build_using_cmake.sh Catch2
 
+printf "Build benchmark\n"
+./build_using_cmake.sh benchmark "-DBENCHMARK_ENABLE_GTEST_TESTS=OFF"
+
 printf "Build fmt\n"
 ./build_using_cmake.sh fmt "-DFMT_DOC=OFF -DFMT_TEST=OFF" > /dev/null
 
@@ -29,9 +32,6 @@ printf "Build zlib\n"
 printf "Build lz4\n"
 ./build_using_make.sh lz4 > /dev/null 
 
-printf "Build jemalloc\n"
-./build_using_autogen.sh jemalloc > /dev/null
-
 printf "Build snappy"
 ./build_using_cmake.sh snappy "-DSNAPPY_BUILD_TESTS=OFF" > /dev/null
 
@@ -48,4 +48,5 @@ printf "Build snappy"
 printf "build rocksdb"
 ./build_rocksdb.sh > /dev/null 
 
-./build_using_cmake.sh benchmark "-DBENCHMARK_ENABLE_GTEST_TESTS=OFF"
+printf "Build jemalloc\n"
+./build_using_autogen.sh jemalloc > /dev/null
