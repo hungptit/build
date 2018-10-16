@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo pipefail				# Use Bash strict mode
+set -euo pipefail                               # Use Bash strict mode
 
 # Parse input arguments
 PKGNAME=$1
@@ -21,8 +21,8 @@ echo "====> Build folder: " $APKG_BUILD_FOLDER
 rm -rf $APKG_BUILD_FOLDER
 mkdir $APKG_BUILD_FOLDER
 pushd $APKG_BUILD_FOLDER
-$APKG_SRC/configure --prefix=$APKG_PREFIX $EXTRA_CONFIG_OPTIONS
+$APKG_SRC/configure --prefix $APKG_PREFIX $EXTRA_CONFIG_OPTIONS
 make $BUILD_OPTS $EXTRA_MAKE_OPTIONS
 make install
 popd;
-rm -rf $APKG_BUILD_FOLDER		# Cleanup build directory.
+rm -rf $APKG_BUILD_FOLDER               # Cleanup build directory.
