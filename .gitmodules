@@ -108,3 +108,6 @@
 	path = src/FakeIt
 	url = https://github.com/eranpeer/FakeIt.git
 	branch = master
+[submodule "src/dpdk"]
+	path = src/dpdk
+	url = git://dpdk.org/dpdk

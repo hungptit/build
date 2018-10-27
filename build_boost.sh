@@ -22,10 +22,10 @@ git submodule init;
 git submodule update --recursive;
 
 # Build Boost libraries
-# ./bootstrap.sh --ignore-site-config  --prefix=$BOOST_PREFIX --without-icu
-#./b2 clean
+./bootstrap.sh --prefix=$BOOST_PREFIX --without-icu
+# ./b2 clean
 #./b2 --ignore-site-config headers
-./b2 --ignore-site-config --build-dir=$TMP_DIR/boost
+./b2 --ignore-site-config --build-dir=$TMP_DIR/boost install -j9
 ./b2 $BUILD_OPTS --disable-icu --ignore-site-config install
 
 popd;
