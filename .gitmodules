@@ -111,3 +111,7 @@
 [submodule "src/dpdk"]
 	path = src/dpdk
 	url = git://dpdk.org/dpdk
+[submodule "src/hopscotch-map"]
+	path = src/hopscotch-map
+	url = https://github.com/Tessil/hopscotch-map.git
+	branch = master
