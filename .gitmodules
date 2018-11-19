@@ -115,3 +115,10 @@
 	path = src/hopscotch-map
 	url = https://github.com/Tessil/hopscotch-map.git
 	branch = master
+[submodule "src/xxHash"]
+	path = src/xxHash
+	url = https://github.com/Cyan4973/xxHash.git
+[submodule "src/farmhash"]
+	path = src/farmhash
+	url = https://github.com/google/farmhash.git
+	branch = master
