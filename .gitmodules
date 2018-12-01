@@ -122,3 +122,7 @@
 	path = src/farmhash
 	url = https://github.com/google/farmhash.git
 	branch = master
+[submodule "src/meow_hash"]
+	path = src/meow_hash
+	url = https://github.com/cmuratori/meow_hash.git
+	branch = master
