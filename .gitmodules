@@ -111,3 +111,23 @@
 [submodule "src/dpdk"]
 	path = src/dpdk
 	url = git://dpdk.org/dpdk
+[submodule "src/hopscotch-map"]
+	path = src/hopscotch-map
+	url = https://github.com/Tessil/hopscotch-map.git
+	branch = master
+[submodule "src/xxHash"]
+	path = src/xxHash
+	url = https://github.com/Cyan4973/xxHash.git
+[submodule "src/farmhash"]
+	path = src/farmhash
+	url = https://github.com/google/farmhash.git
+	branch = master
+[submodule "src/meow_hash"]
+	path = src/meow_hash
+	url = https://github.com/cmuratori/meow_hash.git
+	branch = master
+[submodule "src/hwloc"]
+        path = src/hwloc
+        url = https://github.com/open-mpi/hwloc.git
+        branch = master
+
